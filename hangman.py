@@ -1,5 +1,10 @@
+from tqdm import tqdm;
+import time;
 import random;
 print ("Welcome TO The Valorant Hangman!")
+
+for i in tqdm([1,2,3,4,5]):
+    time.sleep(0.3);
 
 words = ['kj' , 'sova', 'neon', 'omen' , 'clove'];
 
